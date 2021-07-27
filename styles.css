@@ -1,0 +1,67 @@
+body{
+    text-align: center;
+    font-family:"MarcellusSC-Regular", "Times New Roman", Georgia, Serif;
+    background-image: url("https://wallpaperaccess.com/full/3346750.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #f2f9fb;
+}
+h1{
+    font-family: 'Harry Potter', sans-serif;
+    font-size: 50px;
+
+}
+#newbook{
+    display: none;
+    background-color: rgba(56, 43, 43, 0.6);
+    border: 5px solid goldenrod;
+    border-radius:  7px;
+    height: 500px;
+    width: 500px;
+    color: black;
+    bottom: 0;
+    right: 30%;
+    font-weight:bolder;
+    font-size: larger;
+    /*background-image: url(https://i.pinimg.com/originals/d0/7c/59/d07c59da45f17b99b458fcd29eed454a.jpg);
+    background-size: cover;*/
+    position: fixed;
+}
+label{
+    margin: 2%;
+}
+input{
+    margin: 3%;
+}
+.formbuttons{
+    float:left;
+    width: 50%;
+    height: 95px;
+    background-color: rgba(56, 43, 43, 0.6);
+    border-radius: 7px;
+}
+.bookdisplay{
+    background-image: url("https://thumbor.forbes.com/thumbor/960x0/https%3A%2F%2Fspecials-images.forbesimg.com%2Fimageserve%2F6058b1eed388d3a4a0831d09%2F960x0.jpg%3Ffit%3Dscale");
+    border: 2px solid yellow;
+    background-color: black;
+
+    width: 300px;
+    height: 200px;
+    float:left;
+    margin: 15px;
+    border-radius: 7px;
+    line-height: 40px;
+    background-size: cover;
+
+}
+.bookdisplaybuttons{
+    float: left;
+    padding: 0.5rem;
+    width: 50%;
+    border-radius: 7px;
+    height: 41px;
+    border: 1px solid yellow;
+    background-color: black;
+    color: #f2f9fb;
+    font-weight: bold;
+}
