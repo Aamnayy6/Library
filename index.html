@@ -12,23 +12,30 @@
         <header>
             <h1>Library</h1>
         </header>
-        <button id="add">Add New Book</button>
+        <button id="add">ADD NEW BOOK</button>
         <div class="books"></div>
+        <div class="librarystats">
+            <p>LIBRARY LOG</p>
+            <hr>
+            <p  class="log">Total Books </p>
+            <p  class="log">Books Read</p>
+            <p  class="log">Books unread </p>
+        </div>
         <div id="newbook">
             <form id="bookform">
-                <p>ADD NEW BOOK</p>
+                <p>ADD A NEW BOOK</p>
                 <hr>
                 <label for="title">Book Title: </label>
                 <br>
-                <input type="text" id="title" value="Title">
+                <input type="text" id="title" required>
                 <br>
                 <label for="author">Author's Name: </label>
                 <br>
-                <input type="text" id="author">
+                <input type="text" id="author" required>
                 <br>
                 <label for="pages">Pages: </label>
                 <br>
-                <input type="number" id="pages">
+                <input type="number" id="pages" required>
                 <br>
                 <label>Have you read the book?</label>
                 <br>
