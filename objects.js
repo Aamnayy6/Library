@@ -60,9 +60,12 @@ function displaybooks(creatingbook){
         newbook.appendChild(removebook);
         removebook.addEventListener('click', ()=>{
             let index = Library.findIndex(Book=>Book.title = creatingbook.title);
+            if(creatingbook.read=="Read")
+            readcount--;
             Library.splice(index, 1);
             delete creatingbook;
             newbook.remove();
+            updatebooklog();
         })
         let readstatus= document.createElement('button');
         if(creatingbook.read=="Read")
