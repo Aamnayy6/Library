@@ -37,13 +37,22 @@ input{
     margin: 3%;
 }
 .formbuttons{
-    float:left;
     width: 50%;
     height: 106px;
     background-color:#a9766dab;
-    color: #1F3E59;
+    color: #3b3f42;
     font-weight:bold;
     font-size: larger;
+}
+#addbutton{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+#cancel{
+    position: absolute;
+    bottom: 0;
+    right: 0;
 }
 .bookdisplay{
      border: 2px solid #1F3E59;
@@ -85,6 +94,10 @@ button:hover{
 
 @media only screen and (max-width: 960px) {
     .librarystats{
-    width: 0
+        width: 0;
 }
+    #newbook{
+        height: 68%;
+        width: 80%;
+    }
 }
