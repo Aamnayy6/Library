@@ -88,10 +88,15 @@ function displaybooks(creatingbook){
         })
     
 }
-
-
-
-
+const librarylog = document.querySelector('.librarystats');
+const showheaderbutton = document.getElementById('showheader');
+showheaderbutton.addEventListener('click', ()=>{
+    if(librarylog.style.width== "0px" || librarylog.style.width==""){
+    librarylog.style.width = "40%";
+    }
+    else
+    librarylog.style.width = "0px";
+    })
 
 const addbookbutton = document.getElementById('add');
 addbookbutton.addEventListener('click', ()=>{
